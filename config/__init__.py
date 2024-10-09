@@ -7,5 +7,5 @@ from dataclasses import dataclass
 
 @dataclass
 class env_cnf: 
-    token: str | None = environ.get('TOKEN')
+    token: str | None = environ.get("TOKEN")
     
